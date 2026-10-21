@@ -473,4 +473,4 @@ with tab4:
         for i, ((q, opts, k, why), a) in enumerate(zip(QZ, jawab)):
             (st.success if a == opts[k] else st.error)(f"*{i+1}.* {'Benar' if a == opts[k] else 'Belum tepat'} – jawaban: *{opts[k]}*. {why}")
         if skor >= 6:
-            st.balloons(
+            st.balloons
